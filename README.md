@@ -2,9 +2,9 @@ MAZE RUNNER
 
 This project is made by Group 4.
 The members of this group are as follows:
-Patricia Reann S. Cavalida
-Ray Daniel G. Giron
-Kyle Christian A. Estrellan
+- Patricia Reann S. Cavalida
+- Ray Daniel G. Giron
+- Kyle Christian A. Estrellan
 
 ______
 
