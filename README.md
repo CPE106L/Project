@@ -45,12 +45,12 @@ ________________________________________________________________________________
 The identified nouns and verbs present in the specification are the demands 
 to identify the concepts and objects of the program, in which are shown as 
 follows:
-maze quit countdown game entrance
-wins timer play exit loss
-run start find rank player
-quit try number enter user
-username password help generation
-randomized randomized collection of paths
+- maze, quit, countdown, game, entrance, 
+wins, timer, play, exit, loss, 
+run, start, find, rank, player, 
+quit, try, number, enter, user, 
+username, password, help, generation, 
+randomized, collection of paths
 ___________________________________________________________________________________
 
 Relationships between Concepts:
