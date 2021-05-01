@@ -63,6 +63,6 @@ Relationships between Concepts:
 
 ___________________________________________________________________________________
 
-How to play the game using GitHub:
+How To Play the Game using GitHub:
 
 
