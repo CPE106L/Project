@@ -26,10 +26,10 @@ class main():
         results = cursor.fetchall()
         if results:
             self.logf.pack_forget()
-            self.head["text"] = self.username.get()+"\nSuccessfully logged in"
-            self.head['pady'] = 150
+            ms.showinfo('Initiate Success', "You have successfully logged in.")
+            self.log()
         else:
-            ms.showerror("Oh no!", "Username does not exist!")
+            ms.showerror("Error Occured", "Username or Password is incorrect!")
 
     def new_user(self):
         with sqlite3.connect("login.db") as db:
@@ -37,9 +37,9 @@ class main():
         find_user = ("SELECT * FROM user WHERE username = ?")
         cursor.execute(find_user, [(self.username.get())])
         if cursor.fetchall():
-            ms.showerror("Oh no!", "Username already exists!")
+            ms.showerror("Error Occured", "Username already exists!")
         else:
-            ms.showinfo('Success!!', "Your account have successfully created.")
+            ms.showinfo('Initiate Success', "Your account have successfully created.")
             self.log()
         insert = 'INSERT INTO user(username,password) VALUES(?,?)'
         cursor.execute(insert,[(self.n_username.get()),(self.n_password.get())])
