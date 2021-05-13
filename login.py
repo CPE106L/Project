@@ -34,11 +34,6 @@ class main():
     def new_user(self):
         with sqlite3.connect("login.db") as db:
             cursor = db.cursor()
-        find_user = ("SELECT * FROM user WHERE username = ?")
-        cursor.execute(find_user, [(self.username.get())])
-        if cursor.fetchall():
-            ms.showerror("Error Occured", "Username already exists!")
-        else:
             ms.showinfo('Initiate Success', "Your account have successfully created.")
             self.log()
         insert = 'INSERT INTO user(username,password) VALUES(?,?)'
