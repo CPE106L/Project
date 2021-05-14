@@ -65,4 +65,20 @@ ________________________________________________________________________________
 
 How To Play the Game using GitHub:
 
+1. Open Command Prompt/Anaconda Prompt/Ubuntu.
+2. Prompt 'git config --global user.name "Your GitHub username" and "git config --global user.email "Your e-mail"
+3. Initialize the git
+4. Copy the URL to clone the repository by clicking 'Code'.
+5. Install pygame by using the command 'pip install pygame' or 'conda install -c cogsci pygame'
+6. Prompt 'python main.py'
 
+Enjoy the game!
+
+![image](https://user-images.githubusercontent.com/57428743/118305426-87612580-b51a-11eb-954f-a586a6f7cecb.png)
+___________________________________________________________________________________
+
+ADDITIONAL NOTES:
+
+- Users can have the same username and password.
+- Users does not have to create login.db in order to run the file. Creation of login.db is automatic.
+- Improvements will be added later on.
