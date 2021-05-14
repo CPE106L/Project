@@ -68,9 +68,10 @@ How To Play the Game using GitHub:
 1. Open Command Prompt/Anaconda Prompt/Ubuntu.
 2. Prompt 'git config --global user.name "Your GitHub username" and "git config --global user.email "Your e-mail"
 3. Initialize the git
-4. Copy the URL to clone the repository by clicking 'Code'.
-5. Install pygame by using the command 'pip install pygame' or 'conda install -c cogsci pygame'
-6. Prompt 'python main.py'
+4. Copy the URL to clone the repository.
+   - The URL can be seen in 'Code'.
+6. Install pygame by using the command 'pip install pygame' or 'conda install -c cogsci pygame'
+7. Prompt 'python main.py'
 
 Enjoy the game!
 
