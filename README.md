@@ -59,7 +59,8 @@ Relationships between Concepts:
 - A player must find the exit within the maze.
 - A maze has one entrance and one exit.
 
-![image](https://user-images.githubusercontent.com/57428743/116770818-d918a300-aa78-11eb-8c3a-6998fa7a796c.png)
+
+![ds](https://user-images.githubusercontent.com/57428743/118364732-46c1e480-b5cc-11eb-9f3e-c0fac22096f0.png)
 
 ___________________________________________________________________________________
 
